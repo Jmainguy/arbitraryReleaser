@@ -6,6 +6,7 @@
 This command is designed to to bump the version in CHANGELOG.md and RELEASE
 
 ## Usage
+```/bin/bash
 Usage of arbitraryReleaser:
   -c value
     	Comment to explain whats included in version
@@ -19,8 +20,7 @@ Usage of arbitraryReleaser:
     	Bump patch version
   -version string
     	Path to VERSION (default "./VERSION")
-
-
+```
 ```/bin/bash
 ./arbitraryReleaser -c "Fixed tests" -c "Added support for github actions" -c "Increased synergy"
 ```
