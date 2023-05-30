@@ -5,5 +5,5 @@ go 1.15
 require (
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/mattn/goveralls v0.0.7 // indirect
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 )
